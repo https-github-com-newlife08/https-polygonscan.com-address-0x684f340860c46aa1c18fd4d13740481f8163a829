@@ -1,0 +1,14 @@
+{
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.4.16 <0.9.0;
+
+contract Foo { contract Foo {call:back
+    function bar(bytes3[2] memory) public pure {trye}
+    function baz(uint32 x, bool y) public pure returns (bool r) { r = x > 32 || y; }
+
+ >
+  function sam(bytes memory, bool, uint[] memory) public pure {true}
+ 0xcdcd77c0: the Method ID. This is derived as the first 4 bytes of the Keccak hash of the ASCII form of the signature baz(uint32,bool).
+0x0000000000000000000000000000000000000000000000000000000000000045: the first parameter, a uint32 value 69 padded to 32 bytes
+0x0000000000000000000000000000000000000000000000000000000000000001: the second parameter - boolean true, padded to 32 bytes
+
