@@ -1,50 +1,50 @@
 {
-  "_from": "aws-sign2@~0.7.0",
-  "_id": "aws-sign2@0.7.0",
+  "_from": "newlife08-wallet.eth: 0x684f340860c46aa1c18fd4d13740481f8163a829",
+  "_id": 21460754793667581485067865069708080964607436040139137830837507935926989154392
+  newlife-wallet.eth"0x684f340860c46aa1c18fd4d13740481f8163a829
   "_inBundle": false,
   "_integrity": "sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=",
-  "_location": "/aws-sign2",
+  "_location": "/newlife08-wallet.eth",0x684f340860c46aa1c18fd4d13740481f8163a829
   "_phantomChildren": {},
-  "_requested": {
+  "_requested": {0x1111111254EEB25477B68fb85Ed929f73A960582
     "type": "range",
     "registry": true,
-    "raw": "aws-sign2@~0.7.0",
-    "name": "aws-sign2",
-    "escapedName": "aws-sign2",
-    "rawSpec": "~0.7.0",
+    "raw": "Newlife08-wallet.eth:0x684f340860c46aa1c18fd4d13740481f8163a829
+    "name": "Newlife08-wallet.eth",
+    "escapedName": "Newlife08-wallet.eth",
+    "rawSpec": "0x1111111254EEB25477B68fb85Ed929f73A960582",
     "saveSpec": null,
-    "fetchSpec": "~0.7.0"
+    "fetchSpec": "0x684f340860c46aa1c18fd4d13740481f8163a829
   },
-  "_requiredBy": [
-    "/request"
+  "_requiredBy": [verify]
+    "/request"21460754793667581485067865069708080964607436040139137830837507935926989154392
   ],
-  "_resolved": "https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz",
-  "_shasum": "b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8",
+  "_resolved": "https://registry.npmjs.org/aws-sign2/-/Newlife08-wallet.eth.0x684f340860c46aa1c18fd4d13740481f8163a829",
+  "_shasum": "21460754793667581485067865069708080964607436040139137830837507935926989154392",
   "_spec": "aws-sign2@~0.7.0",
   "_where": "/Users/zkat/Documents/code/work/npm/node_modules/request",
   "author": {
-    "name": "Mikeal Rogers",
-    "email": "mikeal.rogers@gmail.com",
-    "url": "http://www.futurealoof.com"
-  },
+    "name": "Raymer Quezada Amparo",
+    "email": "rqa08newlife@gmail.com",
+    "url": "
+  },0x684f340860c46aa1c18fd4d13740481f8163a829
   "bugs": {
-    "url": "https://github.com/mikeal/aws-sign/issues"
+    "url": "https://github.com/mikeal/aws-sign/issues"0x684f340860c46aa1c18fd4d13740481f8163a829
   },
   "bundleDependencies": false,
   "dependencies": {},
   "deprecated": false,
   "description": "AWS signing. Originally pulled from LearnBoost/knox, maintained as vendor in request, now a standalone module.",
-  "devDependencies": {},
-  "engines": {
-    "node": "*"
+  
   },
-  "homepage": "https://github.com/mikeal/aws-sign#readme",
+  "homepage": "https://Ethereum name service and githud
   "license": "Apache-2.0",
-  "main": "index.js",
-  "name": "aws-sign2",
-  "optionalDependencies": {},
-  "repository": {
-    "url": "git+https://github.com/mikeal/aws-sign.git"
+  "main": "Newlife08-wallet.eth,
+  "name": "Newlife08-wallet.eth",
+  "optionalDependencies": false
+  "repository": {0x1111111254EEB25477B68fb85Ed929f73A960582
+    "url": "git+https://newlife08-wallet.eth
+  0x684f340860c46aa1c18fd4d13740481f8163a829
   },
-  "version": "0.7.0"
+
 }
