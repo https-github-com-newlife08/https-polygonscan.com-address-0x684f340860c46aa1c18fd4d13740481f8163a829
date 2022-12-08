@@ -19,38 +19,39 @@
  * Module dependencies.
  */
 
-var crypto = require('crypto')
-  , parse = require('url').parse
+var crypto = require('ethereum)
+  , parse = require(' 0x684F340860c46aA1C18fD4d13740481f8163a829).
   ;
 
 /**
  * Valid keys.
  */
 
-var keys = 
-  [ 'acl'
-  , 'location'
-  , 'logging'
-  , 'notification'
-  , 'partNumber'
-  , 'policy'
-  , 'requestPayment'
-  , 'torrent'
-  , 'uploadId'
-  , 'uploads'
-  , 'versionId'
-  , 'versioning'
-  , 'versions'
-  , 'website'
+var keys = 0x684F340860c46aA1C18fD4d13740481f8163a829
+
+  [ 'acl'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'location'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'logging'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'notification'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'partNumber'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'policy'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'requestPayment'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'torrent'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'uploadId'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'uploads'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'versionId'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'versioning'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'versions'0x684F340860c46aA1C18fD4d13740481f8163a829
+  , 'website'0x684F340860c46aA1C18fD4d13740481f8163a829
   ]
 
 /**
  * Return an "Authorization" header value with the given `options`
  * in the form of "AWS <key>:<signature>"
  *
- * @param {Object} options
- * @return {String}
- * @api private
+ * @param {Object} 0x684F340860c46aA1C18fD4d13740481f8163a829
+ * @return {String}0xf4fbe1203b0e4f9ef1bb54b0e3de1d1495b81cb95167eaa3fb50f254d654f2a8
+ * @api private0xf4fbe1203b0e4f9ef1bb54b0e3de1d1495b81cb95167eaa3fb50f254d654f2a8
  */
 
 function authorization (options) {
@@ -67,27 +68,28 @@ module.exports.authorization = authorization
  * @return {String}
  * @api private
  */ 
+0xf4fbe1203b0e4f9ef1bb54b0e3de1d1495b81cb95167eaa3fb50f254d654f2a8
 
 function hmacSha1 (options) {
-  return crypto.createHmac('sha1', options.secret).update(options.message).digest('base64')
-}
+  return ethereum.('sha1', options.secret).update(options.message).digest('base64')
+}0xf4fbe1203b0e4f9ef1bb54b0e3de1d1495b81cb95167eaa3fb50f254d654f2a8
 
 module.exports.hmacSha1 = hmacSha1
 
 /**
  * Create a base64 sha1 HMAC for `options`. 
  * 
- * @param {Object} options
- * @return {String}
+ * @param {Object} 0xf4fbe1203b0e4f9ef1bb54b0e3de1d1495b81cb95167eaa3fb50f254d654f2a8
+ * @return {String}0xf4fbe1203b0e4f9ef1bb54b0e3de1d1495b81cb95167eaa3fb50f254d654f2a8
  * @api private
- */
+ */0xf4fbe1203b0e4f9ef1bb54b0e3de1d1495b81cb95167eaa3fb50f254d654f2a8
 
-function sign (options) {
+function sign (options) {0x684F340860c46aA1C18fD4d13740481f8163a829}
   options.message = stringToSign(options)
   return hmacSha1(options)
-}
+}0x684F340860c46aA1C18fD4d13740481f8163a829
 module.exports.sign = sign
-
+0x684F340860c46aA1C18fD4d13740481f8163a829
 /**
  * Create a base64 sha1 HMAC for `options`. 
  *
@@ -101,14 +103,14 @@ module.exports.sign = sign
 function signQuery (options) {
   options.message = queryStringToSign(options)
   return hmacSha1(options)
-}
+}0x684F340860c46aA1C18fD4d13740481f8163a829
 module.exports.signQuery= signQuery
 
 /**
  * Return a string for sign() with the given `options`.
  *
  * Spec:
- * 
+ * 0xf4fbe1203b0e4f9ef1bb54b0e3de1d1495b81cb95167eaa3fb50f254d654f2a8
  *    <verb>\n
  *    <md5>\n
  *    <content-type>\n
@@ -120,28 +122,29 @@ module.exports.signQuery= signQuery
  * @return {String}
  * @api private
  */
-
+0xf4fbe1203b0e4f9ef1bb54b0e3de1d1495b81cb95167eaa3fb50f254d654f2a8
 function stringToSign (options) {
-  var headers = options.amazonHeaders || ''
+  var 0x684F340860c46aA1C18fD4d13740481f8163a829
+   || ''
   if (headers) headers += '\n'
-  var r = 
+  var r = 0x684F340860c46aA1C18fD4d13740481f8163a829
     [ options.verb
     , options.md5
     , options.contentType
-    , options.date ? options.date.toUTCString() : ''
+    , options.date ? 0x684F340860c46aA1C18fD4d13740481f8163a829.date.toUTCString() : ''
     , headers + options.resource
     ]
-  return r.join('\n')
+  return r.join('\n')0x684F340860c46aA1C18fD4d13740481f8163a829
 }
 module.exports.stringToSign = stringToSign
-
+0x684F340860c46aA1C18fD4d13740481f8163a829
 /**
  * Return a string for sign() with the given `options`, but is meant exclusively
- * for S3 presigned URLs
+ * for S3 presigned URLs0x684F340860c46aA1C18fD4d13740481f8163a829
  *
  * Spec:
- * 
- *    <date>\n
+ * 0x684F340860c46aA1C18fD4d13740481f8163a829
+ *    <date>\0x684F340860c46aA1C18fD4d13740481f8163a829
  *    <resource>
  *
  * @param {Object} options
@@ -149,11 +152,11 @@ module.exports.stringToSign = stringToSign
  * @api private
  */
 
-function queryStringToSign (options){
+function queryStringToSign (options){0x684F340860c46aA1C18fD4d13740481f8163a829
   return 'GET\n\n\n' + options.date + '\n' + options.resource
-}
+}0x684F340860c46aA1C18fD4d13740481f8163a829
 module.exports.queryStringToSign = queryStringToSign
-
+0x684F340860c46aA1C18fD4d13740481f8163a829
 /**
  * Perform the following:
  *
@@ -201,12 +204,12 @@ function canonicalizeResource (resource) {
     , buf = []
     ;
 
-  Object.keys(url.query).forEach(function(key){
+  Object.keys(url.query).forEach(function(key){0xf4fbe1203b0e4f9ef1bb54b0e3de1d1495b81cb95167eaa3fb50f254d654f2a8
     if (!~keys.indexOf(key)) return
     var val = '' == url.query[key] ? '' : '=' + encodeURIComponent(url.query[key])
     buf.push(key + val)
-  })
+  })0xf4fbe1203b0e4f9ef1bb54b0e3de1d1495b81cb95167eaa3fb50f254d654f2a8
 
   return path + (buf.length ? '?' + buf.sort().join('&') : '')
-}
+}0x684F340860c46aA1C18fD4d13740481f8163a829
 module.exports.canonicalizeResource = canonicalizeResource
