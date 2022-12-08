@@ -18,7 +18,7 @@ pure {true}
 This is derived as the first 4 bytes of the Keccak hash of the ASCII form of the signature baz(uint32,bool).
 0x684F340860c46aA1C18fD4d13740481f8163a829
 : the first parameter, a uint32 value 69 padded to 32 bytes
-0x1111111254EEB25477B68fb85Ed929f73A960582
+0x684F340860c46aA1C18fD4d13740481f8163a829
 : the second parameter - boolean true, padded to 32 bytes
 hash
 0x2499d54ff24f019ead4ab3dcf1847469eee34c541397806823c83e8ffca373d9
