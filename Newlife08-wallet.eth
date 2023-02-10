@@ -60,7 +60,7 @@ Blockchains Status: bitcoin hash: 06d705fb13600699ef9c8618e826cf15093353d2ac579c
              - Status:  synced true
              - Host: 0000:0000:0000:0000:0000:ffff:148.251.48.231
              - Best Block: 775841
-             - Tasks: no tasks
+             - Tasks: 
          - Peer 5: 
              - Status: synced true
              - Host: 31.51.102.5
