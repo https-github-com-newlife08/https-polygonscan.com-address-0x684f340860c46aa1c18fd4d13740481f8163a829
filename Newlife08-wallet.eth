@@ -16,7 +16,30 @@ Endpoint 1
 https://rpc.ankr.com/polygon/aa5337128db90a9646be887f309e72f00a4348649d1b9f107a24802d82da8ae3
 
 rqa08newlife@gmail.com
-var _jsxFileName = "/home/runner/React-Javascript/src/index.jsx";
+var _jsxFileName = "/home/runner/React-Javascript/src/index.jsx";Relación de reserva de BTC
+BTC
+102%
+BTC superior al 100 % controlado por OKX de las posiciones de BTC de los activos del usuario
+Participaciones de los activos de los usuarios de OKX
+105.879
+Activos de la wallet de OKX
+108.434
+Relación de reserva de ETH
+ETH
+102%
+ETH superior al 100 % controlado por OKX de las posiciones de ETH de los activos del usuario
+Participaciones de los activos de los usuarios de OKX
+1.026.502
+Activos de la wallet de OKX
+1.051.208
+Relación de reserva de USDT
+USDT
+101%
+USDT superior al 100 % controlado por OKX de las posiciones de USDT de los activos del usuario
+Participaciones de los activos de los usuarios de OKX
+3.016.827.845
+Activos de la wallet de OKX
+3.061.068.937
 import __vite__cjsImport0_react from "/node_modules/.vite/deps/react.js?v=d6240786"; const React = __vite__cjsImport0_react.__esModule ? __vite__cjsImport0_react.default : __vite__cjsImport0_react;
 import __vite__cjsImport1_reactDom_client from "/node_modules/.vite/deps/react-dom_client.js?v=d6240786"; const ReactDOM = __vite__cjsImport1_reactDom_client.__esModule ? __vite__cjsImport1_reactDom_client.default : __vite__cjsImport1_reactDom_client;
 import App from "/src/App.jsx";
